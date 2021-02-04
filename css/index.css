@@ -42,10 +42,6 @@ body {
   height: auto;
 }
 
-.hide {
-  display: none;
-}
-
 .accordion {
   width: 100%;
   height: auto;
@@ -70,8 +66,15 @@ body {
   cursor: pointer;
 }
 
-.accordion .toggleOpen {
-  padding: 2.5%;
+.accordion .openToggle {
+  overflow: hidden;
+  height: 0;
   text-align: center;
   color: #989898;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.accordion .content {
+  padding: 2.5%;
 }

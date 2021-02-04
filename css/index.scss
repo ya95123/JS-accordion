@@ -30,10 +30,6 @@ body {
   height: auto;
 }
 
-.hide {
-  display: none;
-}
-
 .accordion {
   width: 100%;
   height: auto;
@@ -59,11 +55,18 @@ body {
     }
   }
 
-  .toggleOpen {
+  .openToggle {
     // 背景
-    padding: 2.5%;
+    overflow: hidden;
+    height: 0;
     // 文字
     text-align: center;
     color: #989898;
+    // 動態
+    transition: 0.5s;
+  }
+
+  .content {
+    padding: 2.5%;
   }
 }
