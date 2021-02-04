@@ -24,7 +24,6 @@ body {
       -ms-flex-align: center;
           align-items: center;
   letter-spacing: 1px;
-  background: url(https://picsum.photos/1920/1080/?random=1);
 }
 
 ::-moz-selection {
