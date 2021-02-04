@@ -17,6 +17,7 @@ body {
   justify-content: center;
   align-items: center;
   letter-spacing: 1px;
+  background: url(https://picsum.photos/1920/1080/?random=1);
 }
 
 ::selection {
@@ -33,10 +34,10 @@ body {
 .accordion {
   width: 100%;
   height: auto;
-  // border: 4px solid #d9edee;
   background-image: linear-gradient(to right, #fddb92 0%, #d1fdff 100%);
   border-radius: 1rem;
   overflow: hidden;
+  opacity: 0.85;
 
   .topic {
     // 背景

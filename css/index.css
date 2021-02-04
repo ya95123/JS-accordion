@@ -24,6 +24,7 @@ body {
       -ms-flex-align: center;
           align-items: center;
   letter-spacing: 1px;
+  background: url(https://picsum.photos/1920/1080/?random=1);
 }
 
 ::-moz-selection {
@@ -49,6 +50,7 @@ body {
   background-image: linear-gradient(to right, #fddb92 0%, #d1fdff 100%);
   border-radius: 1rem;
   overflow: hidden;
+  opacity: 0.85;
 }
 
 .accordion .topic {
